@@ -1,4 +1,4 @@
-const socketUrl = "ws://62.77.156.191:3000"
+const socketUrl = "wss://62.77.156.191:3000"
 const priceBlocks = document.getElementsByClassName("price");
 
 const changeAll = (p) => {
