@@ -1,9 +1,9 @@
-const socketUrl = "ws://localhost:3000"
+const socketUrl = "ws://62.77.156.191:3000"
 const priceBlocks = document.getElementsByClassName("price");
 
 const changeAll = (p) => {
     for (priceBlock of priceBlocks) {
-        priceBlock.innerHTML = roundNum(p, 2).toFixed(2)
+        priceBlock.innerHTML = roundNum(p, 2).toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     }
     oprice = p;
 }
