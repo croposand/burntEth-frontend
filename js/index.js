@@ -1,4 +1,4 @@
-const socketUrl = "ws://62.77.156.191:443"
+const socketUrl = "ws://api.latexhelper.com"
 const priceBlocks = document.getElementsByClassName("price");
 
 const changeAll = (p) => {
